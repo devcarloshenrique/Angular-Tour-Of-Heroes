@@ -1,3 +1,4 @@
+
 # TourOfHeroes
 
 ## Servidor de desenvolvimento
@@ -28,6 +29,13 @@ Execute `ng serve` para um servidor de desenvolvimento. Navegue até `http: // l
 -   Você costumava incluir ou excluir condicionalmente um bloco de HTML.`*[ngIf](https://v7.angular.io/api/common/NgIf)`
 -   Você pode alternar uma classe de estilo CSS com uma vinculação.`class`
 
+### [Componentes Pai/Filho](https://v7.angular.io/tutorial/toh-pt3#add-the-input-hero-property)
+
+-   Você criou um separado, reutilizável.`HeroDetailComponent`
+
+-   Você usou uma  [propriedade vinculativa](https://v7.angular.io/guide/template-syntax#property-binding)  para dar ao pai controle sobre a criança.`HeroesComponent``HeroDetailComponent`
+
+-   Você usou o  [`@Input`  decorador](https://v7.angular.io/guide/template-syntax#inputs-outputs)  para disponibilizar o imóvel para ligação pelo externo.`hero``HeroesComponent`
 
 > ### Fonte 
 -	**[angular-documentation](https://v7.angular.io/tutorial/toh-pt1#the-missing-formsmodule)**
