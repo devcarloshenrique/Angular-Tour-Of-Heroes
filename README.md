@@ -1,12 +1,15 @@
+
 # TourOfHeroes
 
 ## Servidor de desenvolvimento
 
+#### *`Start`*
+
 Execute `ng serve` para um servidor de desenvolvimento. Navegue até `http: // localhost: 4200 /` . O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.
 
-## Resumo
+### [Editor de Heroes](https://v7.angular.io/tutorial/toh-pt1) 
 
->**Esses foram todos os conceitos visto durante o mini-projeto**
+>**Esses foram todos os conceitos visto durante esta parte do mini projeto**
 
 -   Você usou a CLI para criar um segundo `HeroesComponent`.
 -   Você exibiu o `HeroesComponent`adicionando-o ao `AppComponent`shell.
@@ -16,6 +19,25 @@ Execute `ng serve` para um servidor de desenvolvimento. Navegue até `http: // l
 -   Você importou o `[FormsModule](https://v7.angular.io/api/forms/FormsModule)`no `AppModule`para que o Angular reconhecesse e aplicasse a `[ngModel](https://v7.angular.io/api/forms/NgModel)`diretiva.
 -   Você aprendeu a importância de declarar componentes no `AppModule` e apreciou que a CLI declarou isso para você.
 
+### [Listagem de Heroes](https://v7.angular.io/tutorial/toh-pt2) 
+
+>**Esses foram todos os conceitos visto durante esta parte do mini projeto**
+
+-   O aplicativo Tour of Heroes exibe uma lista de heróis em uma exibição Master/Detail.
+-   O usuário pode selecionar um herói e ver os detalhes desse herói.
+-   Você costumava exibir uma lista.`*[ngFor](https://v7.angular.io/api/common/NgForOf)`
+-   Você costumava incluir ou excluir condicionalmente um bloco de HTML.`*[ngIf](https://v7.angular.io/api/common/NgIf)`
+-   Você pode alternar uma classe de estilo CSS com uma vinculação.`class`
+
+### [Componentes Pai/Filho](https://v7.angular.io/tutorial/toh-pt3#add-the-input-hero-property)
+
+-   Você criou um separado, reutilizável.`HeroDetailComponent`
+
+-   Você usou uma  [propriedade vinculativa](https://v7.angular.io/guide/template-syntax#property-binding)  para dar ao pai controle sobre a criança.`HeroesComponent``HeroDetailComponent`
+
+-   Você usou o  [`@Input`  decorador](https://v7.angular.io/guide/template-syntax#inputs-outputs)  para disponibilizar o imóvel para ligação pelo externo.`hero``HeroesComponent`
+
+> ### Fonte 
 -	**[angular-documentation](https://v7.angular.io/tutorial/toh-pt1#the-missing-formsmodule)**
 
 ## Autor
